@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INTELIGENCIA ARTIFICIAL</title>
+	<style>
+		.header {
+			background-color: #999;
+			padding: 20px;
+			color: #fff;
+			text-align: center;
+		}
+
+		.navbar {
+			background-color: #f1f1f1;
+			overflow: hidden;
+		}
+
+		.navbar input[type=text] {
+			padding: 6px;
+			margin-top: 8px;
+			font-size: 17px;
+			border: none;
+			width: 400px;
+		}
+
+		.navbar button {
+			float: right;
+			padding: 6px 10px;
+			margin-top: 8px;
+			margin-right: 16px;
+			background-color: #333;
+			color: #fff;
+			font-size: 17px;
+			border: none;
+			cursor: pointer;
+		}
+
+		#inicio-info {
+			display: none;
+			padding: 20px;
+		}
+	</style>
+	<script>
+		function mostrarInicioInfo() {
+			var inicioInfo = document.getElementById("inicio-info");
+			if (inicioInfo.style.display === "none") {
+				inicioInfo.style.display = "block";
+			} else {
+				inicioInfo.style.display = "none";
+			}
+		}
+	</script>
+</head>
+<body>
+	<header class="header">
+		<h1>INTELIGENCIA ARTIFICIAL</h1>
+	</header>
+
+	<nav class="navbar">
+			<input type="text" placeholder="Buscar...">
+			<button type="submit">Buscar</button>
+	</nav>
+
+	<main>
+		<section id="inicio">
+			<h2>Inicio</h2>
+			<button onclick="mostrarInicioInfo()">Leer más</button>
+			<div id="inicio-info">
+				<p>Aquí puedes encontrar información sobre el tema de la inteligencia artificial. La inteligencia artificial es un campo de estudio que se enfoca en la creación de sistemas y programas que pueden realizar tareas que normalmente requerirían inteligencia humana.</p>
+				<p>Esto incluye áreas como el aprendizaje automático, el procesamiento del lenguaje natural, la visión por computadora y mucho más.</p>
+				<p>La inteligencia artificial tiene aplicaciones en diversas industrias, como la medicina, la robótica, los vehículos autónomos y los asistentes virtuales.</p>
+				<p>Uno de los desafíos actuales en el campo de la inteligencia artificial es el desarrollo de sistemas éticos y responsables que tengan en cuenta las implicaciones sociales, legales y éticas de su uso.</p>
+				<p>La inteligencia artificial puede mejorar la eficiencia y la precisión en muchos procesos, lo que conduce a avances significativos en diversas áreas de la sociedad y la economía.</p>
+				<p>Algunos ejemplos de aplicaciones de inteligencia artificial incluyen sistemas de recomendación en plataformas de streaming, detección de fraudes en transacciones financieras, diagnóstico médico asistido por computadora y vehículos autónomos.</p>
+				<p>La recopilación y el análisis de grandes cantidades de datos son fundamentales para el funcionamiento de los sistemas de inteligencia artificial. El aprendizaje automático y las redes neuronales son técnicas comunes utilizadas para extraer patrones y conocimientos de los datos.</p>
+				<p>Es importante abordar las implicaciones éticas y legales de la inteligencia artificial, como la privacidad de los datos, la discriminación algorítmica y la responsabilidad en caso de errores o decisiones incorrectas de los sistemas de inteligencia artificial.</p>
+				<p>La inteligencia artificial continuará evolucionando y desempeñará un papel cada vez más importante en nuestro mundo, brindando oportunidades y desafíos para la sociedad y la humanidad en general.</p>
+				<p>En resumen, la inteligencia artificial es un campo emocionante y en constante crecimiento que tiene el potencial de transformar la forma en que vivimos, trabajamos y nos relacionamos.</p>
+
+				<section id="nosotros">
+			<h2>Sobre Nosotros</h2>
+			<button onclick="mostrarNosotrosInfo()">Leer más</button>
+			<div id="nosotros-info">
+				<p>El objetivo de la inteligencia artificial es desarrollar sistemas y programas capaces de imitar, e incluso superar, las capacidades humanas en tareas como el razonamiento, la toma de decisiones y el aprendizaje.</p>
+				<p>Esto se logra mediante el uso de algoritmos y modelos matemáticos complejos que permiten a las máquinas procesar grandes cantidades de datos y aprender de ellos para realizar tareas específicas.</p>
+				<p>Algunos de los objetivos clave de la inteligencia artificial incluyen la creación de sistemas de aprendizaje automático capaces de reconocer patrones y adaptarse a nuevas situaciones, el desarrollo de agentes inteligentes que puedan interactuar y comunicarse con los seres humanos de manera natural, y la mejora de la eficiencia y la precisión en tareas complejas.</p>
+				<p>Además, la inteligencia artificial también busca comprender y modelar la inteligencia humana, con el fin de aplicar ese conocimiento en la creación de sistemas más inteligentes y eficientes.</p>
+				<p>En última instancia, el objetivo final de la inteligencia artificial es mejorar nuestra calidad de vida, facilitar tareas difíciles, ayudar en la toma de decisiones y abrir nuevas posibilidades en diversas áreas de la ciencia, la tecnología y la sociedad.</p>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<!-- Pie de página -->
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de Inteligencia Artificial</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 20px;
+		}
+
+		h1 {
+			color: #333;
+		}
+
+		p {
+			color: #666;
+		}
+
+		button {
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+		button:hover {
+			background-color: #45a049;
+		}
+
+		#aiInfo {
+			margin-top: 20px;
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: left;
+		}
+
+		table {
+			margin-top: 20px;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		table th, table td {
+			padding: 8px;
+			border: 1px solid #ccc;
+		}
+
+		table th {
+			background-color: #f2f2f2;
+		}
+
+		.image {
+			margin-top: 20px;
+		}
+
+		.video {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Bienvenido a la página de Inteligencia Artificial</h1>
+
+	<p>La inteligencia artificial (IA) es una rama de la informática que se enfoca en el desarrollo de sistemas y programas capaces de realizar tareas que requieren de inteligencia humana. Utiliza algoritmos y modelos matemáticos para procesar grandes cantidades de datos y extraer patrones, permitiendo que las máquinas realicen actividades como reconocimiento de voz, procesamiento de imágenes, aprendizaje automático y toma de decisiones.</p>
+
+	<p>La IA está revolucionando diversos campos y promete transformar nuestra forma de vida. Algunas de las áreas en las que la inteligencia artificial ha tenido un impacto significativo incluyen:</p>
+
+	<ul>
+		<li>Asistentes virtuales y chatbots: Los asistentes virtuales como Siri, Alexa y Google Assistant utilizan IA para entender y responder a nuestras preguntas y comandos de voz. Los chatbots también emplean técnicas de IA para interactuar con los usuarios y brindarles información o soporte.</li>
+		<li>Reconocimiento de imágenes: La IA ha avanzado en el reconocimiento y clasificación de imágenes. Aplicaciones como reconocimiento facial, detección de objetos y reconocimiento de caracteres se basan en algoritmos de aprendizaje profundo para analizar y comprender el contenido visual.</li>
+		<li>Automatización y robótica: Los robots inteligentes utilizan IA para realizar tareas complejas en entornos industriales, médicos o domésticos. Estos robots son capaces de aprender de su entorno y ajustar su comportamiento en función de la retroalimentación que reciben.</li>
+		<li>Aprendizaje automático: El aprendizaje automático (machine learning) es una subárea de la IA que se enfoca en desarrollar algoritmos que permiten a las máquinas aprender y mejorar a partir de datos. Esto ha impulsado avances en la detección de fraudes, la personalización de recomendaciones y la optimización de procesos.</li>
+		<li>Análisis de datos: La IA facilita la extracción de información valiosa a partir de grandes volúmenes de datos. Algoritmos como la minería de datos y el análisis predictivo ayudan a descubrir patrones ocultos y realizar predicciones precisas.</li>
+		<li>Procesamiento del lenguaje natural: La IA se utiliza para analizar y comprender el lenguaje humano. Esto permite desarrollar aplicaciones como traductores automáticos, sistemas de reconocimiento de voz y generadores de contenido.</li>
+	</ul>
+
+	
+
+	<div id="aiInfo"></div>
+
+	<table>
+		<li>Siri (Asistente virtual de Apple)</li>
+    	   	   <li>Google Assistant</li>
+    	   	   <li>Amazon Alexa</li>
+    	   	   <li>Netflix (Sistema de recomendación)</li>
+    	   	   <li>Watson for Oncology (Diagnóstico médico)</li>
+    	   	   <li>Google Translate</li>
+    	   	   <li>Cortana (Asistente virtual de Microsoft)</li>
+    	   	   <li>ChatGPT (Asistente virtual basado en GPT)</li>
+
+    	   </ol>
+        <h2>1. Siri (Asistente virtual de Apple)</h2>
+        <p>
+        	Que es el asistente virtual desarrollado por Apple. Siri es ampliamente conocido y se <b> encuentra integrado en dispositivos Apple como el iPhone, iPad, Apple Watch y Mac.</b> Utiliza tecnologías de procesamiento de lenguaje natural y aprendizaje automático para entender y responder a las preguntas y comandos de voz de los usuarios.<br><br>
+
+            Siri <b>es capaz de realizar una variedad de tareas, como enviar mensajes, hacer llamadas, establecer recordatorios, programar eventos en el calendario, proporcionar direcciones de navegación, reproducir música, responder preguntas generales y mucho más.</b> La aplicación se ha vuelto cada vez más sofisticada con el tiempo y ha mejorado su capacidad para comprender el contexto y ofrecer respuestas más precisas.<br><br>
+
+            Además, Siri también se integra con otras aplicaciones y servicios de Apple, lo que permite a los usuarios controlar sus dispositivos y acceder a funciones específicas mediante comandos de voz. Por ejemplo, puedes pedirle a Siri que reproduzca una lista de reproducción en <b>Apple Music</b>, que ajuste la configuración del sistema o que realice búsquedas en la web.<br><br> Haz <a href="https://youtu.be/7BQnrMWk0MM" target="_BLANK">Click Aquí</a> para profundizar más. 
+        </p>
+             <img src="siri.png" height="300px" width="300px">
+        <h2>2. Google Assistant</h2>
+        <p>
+        	 Es un asistente virtual desarrollado por Google y está <b>disponible en una variedad de dispositivos, como teléfonos inteligentes Android, altavoces inteligentes Google Home y dispositivos con el sistema operativo Chrome.</b> También se puede acceder a Google Assistant a través de la aplicación móvil de Google en dispositivos iOS.<br><br>
+
+             Google Assistant utiliza tecnologías avanzadas de inteligencia artificial, incluido el <b>procesamiento de lenguaje natural y el aprendizaje automático, para comprender y responder a las consultas y comandos de voz de los usuarios.</b> Al igual que otros asistentes virtuales, Google Assistant puede realizar una amplia gama de <b>tareas, como responder preguntas, proporcionar información sobre el clima, enviar mensajes, realizar llamadas, establecer recordatorios y alarmas, reproducir música, controlar dispositivos inteligentes para el hogar y mucho más.</b> <br><br>
+
+             Una de las ventajas de Google Assistant es su capacidad para integrarse con los servicios y aplicaciones de Google, lo que le permite acceder a una gran cantidad de información y realizar acciones específicas de forma rápida y eficiente. Por ejemplo, puedes pedirle a Google Assistant que encuentre restaurantes cercanos, reserve un viaje en Uber, envíe correos electrónicos a través de Gmail o realice traducciones en Google Translate.<br><br>  Haz <a href="https://youtu.be/X65sKP_h62s" target="_BLANK">Click Aquí</a> para más información.
+        </p>
+        <img src="444.png" height="300px" width="300px">
+           <h2>3. Amazon Alexa</h2>
+           <p>
+           	     Alexa es un asistente virtual desarrollado por Amazon y se encuentra integrado en varios dispositivos, incluyendo los <b>altavoces inteligentes Amazon Echo</b> y otros dispositivos compatibles. También se puede acceder a Alexa a través de la aplicación móvil de Amazon en teléfonos inteligentes.<br><br>
+
+                 Al igual que Siri y Google Assistant, Amazon Alexa utiliza técnicas de inteligencia artificial, como el procesamiento de lenguaje natural y el aprendizaje automático, para comprender y responder a las consultas y comandos de voz de los usuarios. <b>Alexa puede realizar una variedad de tareas, como reproducir música, establecer recordatorios y alarmas, proporcionar información en tiempo real, controlar dispositivos para el hogar inteligente, hacer compras en línea, ofrecer noticias y mucho más.</b> <br><br>
+
+                 Una de las características distintivas de Alexa es su capacidad para interactuar con una <b>amplia variedad de dispositivos y servicios a través de lo que se conocen como "habilidades".</b> Las habilidades son funcionalidades adicionales que se pueden habilitar en Alexa para ampliar su conjunto de características. Hay miles de habilidades disponibles en la tienda de habilidades de Alexa, que van desde juegos y entretenimiento hasta aplicaciones de productividad y control de dispositivos.<br><br>
+
+                 Además, Amazon ha desarrollado una plataforma abierta llamada Alexa Skills Kit (ASK), que permite a los desarrolladores crear y personalizar habilidades para Alexa. Esto ha llevado a un crecimiento significativo en el ecosistema de habilidades de Alexa y ha ampliado aún más sus capacidades y usos.<br><br> Haz <a href="https://youtu.be/FLjHCZD7p0Y" target="_BLANK">Click Aquí</a> para conocer la ventajas y desventajas de esta aplicación.
+           </p>
+            <img src="555.png" height="300px" width="300px">
+                <h2>4. Netflix (Sistema de recomendación)</h2>
+                <p>
+                	 Aunque Netflix no es exclusivamente una aplicación de inteligencia artificial, <b>utiliza técnicas de IA para proporcionar un sistema de recomendación personalizado a sus usuarios.</b> <br><br>
+
+                     El sistema de recomendación de Netflix se basa en <b>algoritmos de aprendizaje automático y análisis de datos</b>. Recopila información sobre las preferencias de visualización de los usuarios, como las películas y series que han visto, las calificaciones que han dado y otros datos demográficos. Luego, utiliza estos <b>datos para generar recomendaciones personalizadas de contenido que probablemente agradarán a cada usuario individual.</b> <br><br>
+
+                      El algoritmo de recomendación de Netflix se basa en varios enfoques de IA, <b>como el filtrado colaborativo, el análisis de contenido y el procesamiento de lenguaje natural.</b> Analiza patrones de comportamiento de los usuarios y compara su actividad de visualización con la de otros usuarios para encontrar similitudes y hacer predicciones sobre qué contenido podría interesarles.<br><br>
+ 
+                      El objetivo principal de este sistema de recomendación es ayudar a los usuarios a descubrir contenido nuevo y relevante que se ajuste a sus gustos personales. A medida que los usuarios interactúan más con la plataforma, el sistema de recomendación de Netflix se vuelve más preciso y puede ofrecer recomendaciones cada vez más acertadas.<br><br>
+                      Haz <a href="https://youtu.be/Q2tjvDRpPaE" target="_BLANK">Click Aquí</a> para conocer sus ventajas y desventajas.
+                </p>
+                <img src="666.png" height="300px" width="300px">
+                     <h2>5. Watson for Oncology (Diagnóstico médico)</h2>
+                     <p>
+                     	  Watson for Oncology es un sistema de inteligencia artificial desarrollado por IBM en colaboración con el Memorial Sloan Kettering Cancer Center. <b>Está diseñado para ayudar a los profesionales médicos en el diagnóstico y tratamiento del cáncer</b>. <br><br>
+
+                          Este sistema utiliza técnicas avanzadas de procesamiento de lenguaje natural y aprendizaje automático para analizar y <b>comprender una amplia variedad de información médica, incluyendo historias clínicas de pacientes, informes de patología, resultados de pruebas y literatura médica.</b> Watson for Oncology utiliza este conocimiento para generar recomendaciones y sugerencias basadas en la evidencia científica y las mejores prácticas clínicas.<br><br>
+
+                          Los médicos pueden interactuar con Watson for Oncology introduciendo información específica del paciente y recibiendo recomendaciones sobre opciones de tratamiento, posibles efectos secundarios, pronósticos y pautas de atención. El sistema puede analizar rápidamente grandes volúmenes de información y ayudar a los médicos a tomar decisiones informadas y personalizadas para cada paciente.<br><br>
+
+                          Es importante destacar que Watson for Oncology no reemplaza la experiencia y el juicio clínico de los médicos, sino que se presenta como una herramienta complementaria para ayudar en el proceso de toma de decisiones. Proporciona a los médicos una fuente adicional de información y conocimientos para respaldar sus decisiones en el campo de la oncología.<br><br>
+
+                         <b>Watson for Oncology ha sido implementado en varios hospitales y centros médicos en todo el mundo, y ha demostrado ser útil en la mejora de la atención al paciente y el apoyo a los profesionales de la salud en la lucha contra el cáncer</b>. <br><br>
+                         Haz <a href="https://youtu.be/AqsbO7h7sPQ" target="_BLANK">Click Aquí</a> para conocerla ha fondo.
+                     </p>
+                     <img src="777.png" height="300px" width="300px">
+                          <h2>6. Google Translate</h2>
+                          <p>
+                          	    Google Translate es una aplicación de traducción automática desarrollada por Google, que utiliza inteligencia artificial para <b>facilitar la traducción entre diferentes idiomas</b>. <br><br>
+
+                                <b>Google Translate ofrece la posibilidad de traducir texto, voz, imágenes y contenido web en varios idiomas</b>. Utiliza algoritmos de aprendizaje automático y modelos de lenguaje para analizar y comprender el contexto y el significado de las frases, y luego generar traducciones precisas.<br><br>
+
+                                La aplicación permite a los usuarios escribir o copiar y pegar texto para traducirlo instantáneamente a otro idioma. Además, ofrece la opción de <b>traducir a través de la voz, donde los usuarios pueden hablar directamente en su idioma y obtener una traducción hablada en el idioma objetivo</b>. <br><br>
+
+                                Google Translate también cuenta con una función de <b>traducción visual, donde los usuarios pueden tomar una foto de un texto impreso o escrito a mano</b>, y la aplicación lo traducirá automáticamente. Esta función utiliza técnicas de reconocimiento óptico de caracteres (OCR) y procesamiento de imágenes para detectar y traducir el texto presente en la imagen.<br><br>
+
+                                Además, Google Translate se ha integrado en varios productos y servicios de Google, como el navegador Chrome y el sistema operativo Android, lo que facilita la traducción en línea y fuera de línea en dispositivos móviles.<br><br>
+
+                                La aplicación ha <b>mejorado</b> significativamente en la calidad de las traducciones a lo largo de los años gracias a la evolución de los modelos de IA y el continuo aprendizaje de la red neuronal subyacente.<br><br> 
+                                Haz <a href="https://youtu.be/-KKEHxITGtI" target="_BLANK">Click Aquí</a> para saber usarlo de la mejor manera.
+                          </p>
+                          <img src="888.png" height="300px" width="300px">
+                               <h2>7. Cortana (Asistente virtual de Microsoft)</h2>
+                               <p>
+
+                               	    Cortana es un asistente virtual desarrollado por <b>Microsoft</b>, similar a Siri de Apple y Google Assistant. Está disponible en dispositivos con el <b>sistema operativo Windows</b>, como computadoras y dispositivos móviles.<br><br>
+
+                                    Cortana utiliza técnicas de inteligencia artificial, como el procesamiento de lenguaje natural y el aprendizaje automático, para comprender y responder a las consultas y comandos de voz de los usuarios. Puede realizar una variedad de tareas, <b>como realizar búsquedas en la web, proporcionar información en tiempo real, establecer recordatorios y alarmas, programar eventos en el calendario, enviar correos electrónicos, reproducir música y controlar dispositivos inteligentes para el hogar, entre otros</b>. <br><br>
+
+                                    Además de su funcionalidad básica, Cortana se integra estrechamente con otros servicios y aplicaciones de Microsoft, como Office 365, Outlook y Microsoft Edge. Esto permite a los usuarios acceder y controlar fácilmente sus tareas, correos electrónicos, eventos y documentos utilizando comandos de voz.<br><br>
+
+                                   Cortana también cuenta con una función llamada "Cortana Skills Kit", que permite a los desarrolladores crear y personalizar habilidades específicas para Cortana. Esto amplía aún más las capacidades de Cortana al permitirle interactuar con una amplia gama de servicios y aplicaciones de terceros.<br><br>
+                                   Haz <a href="https://es.wikipedia.org/wiki/Microsoft_Cortana" target="_BLANK">Click Aquí</a> para conocer su historia ha fondo.
+                               </p>
+                               <img src="999.png" height="300px" width="300px">
+                               <h2>8. ChatGPT (Asistente virtual basado en GPT)</h2>
+                               <p>
+                               	    ChatGPT es un modelo de lenguaje basado en inteligencia artificial desarrollado por OpenAI. GPT significa "Generative Pre-trained Transformer" (Transformador Preentrenado Generativo, en español). Se basa en la arquitectura Transformer, que es un tipo de red neuronal que ha demostrado ser muy eficaz en el procesamiento del lenguaje natural.<br><br>
+
+ChatGPT está diseñado para generar respuestas en lenguaje natural en función de las entradas que recibe. Ha sido entrenado en una gran cantidad de datos textuales recopilados de Internet y posee conocimientos generales sobre una amplia variedad de temas.
+
+La idea detrás de ChatGPT es brindar una interfaz conversacional que permita a los usuarios interactuar y hacer preguntas en lenguaje natural. Puedes hacerle preguntas a ChatGPT, plantearle problemas o simplemente mantener una conversación informal con él.<br><br>
+
+OpenAI ha lanzado diferentes versiones de ChatGPT, siendo GPT-3.5 su última versión hasta mi fecha de conocimiento en septiembre de 2021. Sin embargo, ten en cuenta que mi información puede no estar actualizada si se han lanzado nuevas versiones después de esa fecha.<br><br>
+<img src="100.png" height="300px" width="300px">
+
+                               <h3>20 Beneficios que tiene ChatGPT al utilizarlo</h3>
+                               <ol>
+                               <li>Respuestas rápidas: ChatGPT proporciona respuestas instantáneas a tus preguntas y consultas.</li><br>
+                               <li>Disponibilidad las 24 horas: Puedes acceder a ChatGPT en cualquier momento, sin importar la hora del día.</li><br>
+                               <li>Amplio conocimiento: ChatGPT tiene acceso a una gran cantidad de información y conocimiento actualizado.</li><br>
+                               <li>Multilingüe: ChatGPT puede comunicarse en varios idiomas, lo que facilita la interacción con personas de diferentes partes del mundo.</li><br>
+                               <li>Personalización: ChatGPT puede adaptarse a tus preferencias y necesidades individuales.</li><br>
+                               <li>Ayuda en la resolución de problemas: Puedes utilizar ChatGPT para obtener asesoramiento y sugerencias sobre la solución de problemas técnicos o personales.</li><br>
+                               <li>Generación de ideas: Si necesitas inspiración o ideas, ChatGPT puede ayudarte a generar nuevas perspectivas y enfoques.</li><br>
+                               <li>Asistencia en la toma de decisiones: ChatGPT puede proporcionarte información relevante y diferentes puntos de vista para ayudarte a tomar decisiones informadas.</li><br>
+                               <li>Práctica de idiomas: Puedes practicar y mejorar tus habilidades en un idioma específico al interactuar con ChatGPT.</li><br>
+                               <li>Aprendizaje continuo: ChatGPT está diseñado para mejorar con el tiempo y aprender de cada interacción.</li><br>
+                               <li>Sin prejuicios: A diferencia de los humanos, ChatGPT no tiene sesgos implícitos y ofrece respuestas imparciales.</li><br>
+                               <li>Comodidad y conveniencia: Puedes utilizar ChatGPT desde la comodidad de tu hogar o cualquier otro lugar con acceso a Internet.</li><br>
+                               <li>Acompañamiento emocional: ChatGPT puede brindar apoyo emocional y escuchar sin juzgar.</li><br>
+                               <li>Experiencia en diversos temas: ChatGPT puede proporcionar información y conocimientos en una amplia gama de temas, desde ciencia y tecnología hasta arte y literatura.</li><br>
+                               <li>Aprendizaje sin presión: Puedes hacer preguntas libremente a ChatGPT sin temor a sentirte juzgado o avergonzado.</li><br>
+                               <li>Recursos educativos: ChatGPT puede sugerir materiales de aprendizaje, como libros, cursos en línea o videos, para ayudarte a expandir tus conocimientos.</li><br>
+                               <li>Generación de contenido: Si necesitas ideas para escribir o crear contenido, ChatGPT puede ofrecerte sugerencias creativas.</li><br>
+                               <li>Asistencia en la investigación: ChatGPT puede ayudarte a encontrar información relevante para tus proyectos de investigación.</li><br>
+                               <li>Explicaciones detalladas: Puedes pedir a ChatGPT que te proporcione explicaciones detalladas sobre conceptos o temas complejos.</li><br>
+                               <li>Interacción divertida: Chatear con ChatGPT puede ser entretenido y una forma divertida de pasar el tiempo mientras obtienes información y respuestas a tus preguntas.</ol>
+                               	     <ol>   
+                               	     	Haz <a href="https://es.wikipedia.org/wiki/ChatGPT" target="_BLANK">Click Aquí</a> para conocer la historia, caracterisricas, prohibición, impacto cultural, etc. 
+                               </p>
+                                    <video src="https://rr3---sn-cvb7lnl7.googlevideo.com/videoplayback?expire=1687894629&ei=BeaaZJKxIM2G8wSUwqrgAQ&ip=181.214.94.163&id=o-AHMBA5BMM7iirfVMc_kd-xVhOwap4-N2Uvssdo7GCXs3&itag=18&source=youtube&requiressl=yes&spc=qEK7BzrC_MWXbIo5d1tiougXME_QmAqhVLWIEC58RQ&vprv=1&svpuc=1&mime=video%2Fmp4&ns=WUmH8j_qyV9fsZOxEvgjTSoN&gir=yes&clen=28362434&ratebypass=yes&dur=458.315&lmt=1675132519054173&fexp=24007246,24350018,51000022&beids=24350018&c=WEB&txp=5438434&n=3WUoSUTo_pdkEw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAMl1YZtiM69hn8hTZFY7ZPNtF7UDzcNkXsD-x_yI4gZ5AiEA5d-993r1x2YKMjkI8ndWlcsPB2GpuvaF3qup45COTM0%3D&redirect_counter=1&rm=sn-p5qe7d7e&req_id=64283c04990ea3ee&cms_redirect=yes&ipbypass=yes&mh=fw&mip=152.202.139.239&mm=31&mn=sn-cvb7lnl7&ms=au&mt=1687874002&mv=m&mvi=3&pl=19&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIgGZTe4Fm5hBblqFbDkDvP6Grlo2-PdDPItiJlwuIP4EsCIQCLKhDtSq9UPaonNSNrL_5WChYkEqgkJBV1tg6lEjuZ2A%3D%3D" controls>  <br><br>
+		<tr>
+			<th>Área</th>
+			<th>Aplicaciones</th>
+		</tr>
+		<tr>
+			<td>Medicina</td>
+			<td>Diagnóstico médico, descubrimiento de medicamentos, monitoreo de pacientes</td>
+		</tr>
+		<tr>
+			<td>Automoción</td>
+			<td>Conducción autónoma, asistentes de estacionamiento, detección de obstáculos</td>
+		</tr>
+		<tr>
+			<td>Finanzas</td>
+			<td>Análisis de riesgos, detección de fraudes, predicción de mercado</td>
+		</tr>
+		<tr>
+			<td>Comercio electrónico</td>
+			<td>Recomendaciones personalizadas, chatbots de atención al cliente, análisis de datos</td>
+		</tr>
+		<tr>
+			<td>Seguridad</td>
+			<td>Vigilancia inteligente, detección de anomalías, reconocimiento facial</td>
+		</tr>
+	</table>
+
+	<div class="image">
+		 <img src="1.png" width="300" height="200">
+		 <img src="2.png" width="300" height="200">
+		 <img src="3.png" width="300" height="200">
+		 <img src="4.png" width="300" height="200">
+		 <img src="5.png" width="300" height="200">
+		 
+	</div>
+            <h2>
+            	 5 Herramientas con Inteligencia Artificial 
+            </h2>
+	<div class="video">
+		<iframe width="560" height="315" src="https://rr5---sn-q4fl6n6z.googlevideo.com/videoplayback?expire=1687905861&ei=5RGbZJwYxPXyBOSiiNAG&ip=45.139.57.135&id=o-AEpZEH0R6VAicOBDFG2kcksyQe0ZZx-Sf_a-k8l7cvw6&itag=18&source=youtube&requiressl=yes&spc=qEK7B1ye88gr3csCP5JehjgsW3m6potGZCLnhraJ5g&vprv=1&svpuc=1&mime=video%2Fmp4&ns=tpMM1kleRDGMZlzVB-YOZJsN&gir=yes&clen=26092265&ratebypass=yes&dur=517.015&lmt=1675293907944098&fexp=24007246,24362687&c=WEB&txp=5438434&n=3Zy2c9ZUmVaHog&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKF4FfDmYAkr1gYzcxEBRue5IcdYuCSxqu-0ztsLaTrLAiBGR3X8WDLZltC7cqCZGOqRt4EJAfALi-BJjDYjhzVTEA%3D%3D&redirect_counter=1&cm2rm=sn-p5qyy7l&req_id=25f023ac3640a3ee&cms_redirect=yes&cmsv=e&mh=XY&mip=152.202.139.239&mm=34&mn=sn-q4fl6n6z&ms=ltu&mt=1687883013&mv=u&mvi=5&pl=19&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAOBm6c3571t6LWLeIDVzPN3swrx_fFTNbwf2_PI7dPynAiAfKlNxyFrNLM0mvg0FvU0Gf5ohlAKjQZBau7ACEuqD5Q%3D%3D" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<script>
+		document.getElementById("aiButton").addEventListener("click", function() {
+			var aiInfo = document.getElementById("aiInfo");
+			aiInfo.innerHTML = "La inteligencia artificial tiene un potencial enorme para impulsar la innovación y mejorar la eficiencia en diversos campos. Además de las aplicaciones mencionadas anteriormente, la IA también se utiliza en medicina para diagnosticar enfermedades, en finanzas para analizar y predecir el mercado, en automóviles autónomos para la conducción sin conductor, en recomendaciones personalizadas en plataformas de streaming y comercio electrónico, entre muchas otras áreas.</br></br>Algunos de los beneficios clave de la inteligencia artificial son:</br></br>1. Automatización de tareas repetitivas y rutinarias.</br>2. Mayor precisión y velocidad en el procesamiento de datos.</br>3. Capacidad de procesar grandes volúmenes de información en poco tiempo.</br>4. Mejora en la toma de decisiones basada en datos y análisis predictivo.</br>5. Optimización de procesos y reducción de costos.</br>6. Personalización y mejora de la experiencia del usuario.</br>7. Avances en la atención médica y diagnóstico de enfermedades.</br>8. Aumento de la seguridad y detección de amenazas.</br>9. Eficiencia energética y uso sostenible de recursos.</br>10. Impulso de la investigación y desarrollo en diversas industrias."</br></br>;;
+		});
+	</script>
+
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Agradecimiento</title>
+	<style>
+		.container {
+			text-align: center;
+			margin-top: 200px;
+		}
+
+		.message {
+			font-size: 24px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p class="message">Gracias por ver este contenido.</p>
+	</div>
+</body>
+</html>
+
+</body>
+</html>
+
